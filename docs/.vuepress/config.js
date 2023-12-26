@@ -1,7 +1,7 @@
 import { defaultTheme } from 'vuepress'
 
 export default {
-  base: "/Modernia/",
+  base: "/Modernia-docs/",
   lang: 'zh-CN',
   title: 'Modernia Wiki',
   description: '基于botpy的娱乐QQ机器人。',

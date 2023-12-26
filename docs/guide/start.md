@@ -6,4 +6,7 @@
 
 ### 下载
 
-从 ![release]()
+从 ![release](https://github.com/xiayuanOvO/Modernia/releases) 页面下载最新的版本。
+
+### 使用
+

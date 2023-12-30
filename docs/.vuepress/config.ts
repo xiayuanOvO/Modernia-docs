@@ -14,6 +14,7 @@ export default defineUserConfig({
     navbar: [
       { text: '首页', link: '/' },
       { text: '指南', children: ['/guide/', '/guide/start.md'] },
+      { text: '贡献', link: '/contributing/' },
       { text: 'FAQ', link: '/faq/' }
     ],
     backToHome: '返回首页',

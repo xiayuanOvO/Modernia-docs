@@ -16,8 +16,8 @@ features:
   - title: 简单便捷
     details: 仅需简单配置，上手即用。
 
-  - title: 跨平台
-    details: 使用 python 编写，可实现多平台运行。
+  - title: 不知道了
+    details: 使用 python 编写
 
   - title: 不知道了
     details: 喵喵喵，小猫老弟（？）

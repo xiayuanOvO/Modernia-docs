@@ -13,11 +13,11 @@ actions:
     type: primary
 
 features:
-  - title: 简单便捷
-    details: 仅需简单配置，上手即用。
+  - title: 上手即用
+    details: 仅需简单配置，即可部署上线。
 
-  - title: 不知道了
-    details: 使用 python 编写
+  - title: 体积轻便
+    details: 仅有 10M 大小，一个文件，打开即用。
 
   - title: 不知道了
     details: 喵喵喵，小猫老弟（？）

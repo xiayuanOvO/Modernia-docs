@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -13,14 +14,16 @@ export default defineUserConfig({
     docsDir: 'docs',
     navbar: [
       { text: '首页', link: '/' },
-      { text: '指南', children: ['/guide/', '/guide/start.md'] },
+      { text: '指南', children: ['/guide/', '/guide/start.md', '/guide/config.md'] },
       { text: '贡献', link: '/contributing/' },
       { text: 'FAQ', link: '/faq/' }
     ],
     backToHome: '返回首页',
     editLinkText: '编辑此页'
   }),
-  
+  plugins: [
+    backToTopPlugin(),
+  ],
 })
 
 // export default defineUserConfig({

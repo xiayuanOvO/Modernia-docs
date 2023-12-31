@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -29,5 +30,6 @@ export default defineUserConfig({
   }),
   plugins: [
     backToTopPlugin(),
+    searchPlugin(),
   ],
 })
